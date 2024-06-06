@@ -1,0 +1,66 @@
+[
+    {
+      "Name": "LAB Guide with mcq for ec2 instance",
+      "Language": "English",
+      "BaseURL": "https://github.com/sachinym/LabGuide-For-EC2-With_MCQ",
+      "Files": [
+        {
+          "RawFilePath": "https://raw.githubusercontent.com/sachinym/LabGuide-For-EC2-With_MCQ/master/Introduction.md",
+          "Order": 1 ,
+          "UnlockingRules": [
+            {
+              "UnlockDependency": "Questions",
+              "DependentQuestions": ["https://raw.githubusercontent.com/sachinym/LabGuide-For-EC2-With_MCQ/master/MCQ/Introduction-mcq1.md","https://raw.githubusercontent.com/sachinym/LabGuide-For-EC2-With_MCQ/master/MCQ/Introduction-mcq2.md"],
+              "UnlockCriteria": "AnsweredCorrectly"
+            }
+          ]          
+        },
+        {
+          "RawFilePath": "https://raw.githubusercontent.com/sachinym/LabGuide-For-EC2-With_MCQ/master/Page1.md",
+          "Order": 2
+        },
+        {
+          "RawFilePath": "https://raw.githubusercontent.com/sachinym/LabGuide-For-EC2-With_MCQ/master/Page2.md",
+          "Order": 3
+        },
+        {
+          "RawFilePath": "https://raw.githubusercontent.com/sachinym/LabGuide-For-EC2-With_MCQ/master/Page3.md",
+          "Order": 4
+        },
+        {
+          "RawFilePath": "https://raw.githubusercontent.com/sachinym/LabGuide-For-EC2-With_MCQ/master/Page4.md",
+          "Order": 5 ,
+          "UnlockingRules": [
+          {
+            "UnlockDependency": "GroupedQuestions",
+            "DependentQuestions": [ "https://raw.githubusercontent.com/sachinym/LabGuide-For-EC2-With_MCQ/master/MCQ/Page4/Page4-mcq1.md", "https://raw.githubusercontent.com/sachinym/LabGuide-For-EC2-With_MCQ/master/MCQ/Page4/Page4-mcq2.md"],
+            "UnlockCriteria": "Answered"
+          }
+        ]
+        },
+        {
+          "RawFilePath": "https://raw.githubusercontent.com/sachinym/LabGuide-For-EC2-With_MCQ/master/Page5.md",
+          "Order": 6 ,
+          "UnlockingRules": [
+          {
+            "UnlockDependency": "GroupedQuestions",
+            "DependentQuestions": [ "https://raw.githubusercontent.com/sachinym/LabGuide-For-EC2-With_MCQ/master/MCQ/Page5/Page5-mcq1.md", "https://raw.githubusercontent.com/sachinym/LabGuide-For-EC2-With_MCQ/master/MCQ/Page5/Page5-mcq2.md"],
+            "UnlockCriteria": "Score",
+            "UnlockPercentageThreshold": 50
+          }
+        ]  
+        },
+        {
+          "RawFilePath": "https://raw.githubusercontent.com/sachinym/LabGuide-For-EC2-With_MCQ/master/Page6.md",
+          "Order": 7 ,
+          "UnlockingRules": [
+          {
+            "UnlockDependency": "GroupedQuestions",
+            "DependentQuestions": [ "https://raw.githubusercontent.com/sachinym/LabGuide-For-EC2-With_MCQ/master/MCQ/Page6/Page6-mcq1.md", "https://raw.githubusercontent.com/sachinym/LabGuide-For-EC2-With_MCQ/master/MCQ/Page6/Page6-mcq2.md","https://raw.githubusercontent.com/sachinym/LabGuide-For-EC2-With_MCQ/master/MCQ/Page6/Page6-mcq3.md"],
+            "UnlockCriteria": "Answered"
+          }          
+        ]
+        }
+      ]
+    }
+  ]
