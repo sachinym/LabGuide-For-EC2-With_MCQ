@@ -77,3 +77,5 @@ Try to explore all the options where you can customise your instance based on yo
 
 ![](./Screenshot/click_on_global_view.png)
 ![](./Screenshot/ec2_global_view.png)
+
+<grouped-questions source="https://raw.githubusercontent.com/sachinym/LabGuide-For-EC2-With_MCQ/master/MCQ/Page4/Page4-metadata.md" />
