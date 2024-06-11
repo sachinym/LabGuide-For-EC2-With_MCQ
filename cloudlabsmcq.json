@@ -41,8 +41,7 @@
           {
             "UnlockDependency": "GroupedQuestions",
             "DependentQuestions": [ 
-              "https://raw.githubusercontent.com/sachinym/LabGuide-For-EC2-With_MCQ/master/MCQ/Page4/question-01.md", 
-              "https://raw.githubusercontent.com/sachinym/LabGuide-For-EC2-With_MCQ/master/MCQ/Page4/question-02.md"
+              "https://raw.githubusercontent.com/sachinym/LabGuide-For-EC2-With_MCQ/master/MCQ/Page4/Page4-metadata.md"
             ],
             "UnlockCriteria": "Answered"
           }
@@ -55,8 +54,7 @@
           {
             "UnlockDependency": "GroupedQuestions",
             "DependentQuestions": [ 
-              "https://raw.githubusercontent.com/sachinym/LabGuide-For-EC2-With_MCQ/master/MCQ/Page5/question-01.md", 
-              "https://raw.githubusercontent.com/sachinym/LabGuide-For-EC2-With_MCQ/master/MCQ/Page5/question-02.md"
+              "https://raw.githubusercontent.com/sachinym/LabGuide-For-EC2-With_MCQ/master/MCQ/Page5/Page5-metadata.md"
             ],
             "UnlockCriteria": "AnsweredCorrectly"
           }
@@ -69,9 +67,7 @@
           {
             "UnlockDependency": "GroupedQuestions",
             "DependentQuestions": [ 
-              "https://raw.githubusercontent.com/sachinym/LabGuide-For-EC2-With_MCQ/master/MCQ/Page6/question-01.md",
-              "https://raw.githubusercontent.com/sachinym/LabGuide-For-EC2-With_MCQ/master/MCQ/Page6/question-02.md",
-              "https://raw.githubusercontent.com/sachinym/LabGuide-For-EC2-With_MCQ/master/MCQ/Page6/question-03.md"
+              "https://raw.githubusercontent.com/sachinym/LabGuide-For-EC2-With_MCQ/master/MCQ/Page6/Page6-metadata.md"
             ],
             "UnlockCriteria": "Answered"
           }
