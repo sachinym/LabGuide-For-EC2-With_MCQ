@@ -126,4 +126,3 @@ You can use Amazon **VPC Lattice** to manage the flow of traffic and API calls b
 
 ![](./Screenshot/review_auto_scaling_group_01.png)
 
-<grouped-questions source="https://raw.githubusercontent.com/sachinym/LabGuide-For-EC2-With_MCQ/master/MCQ/Page4/Page4-metadata.md" />
